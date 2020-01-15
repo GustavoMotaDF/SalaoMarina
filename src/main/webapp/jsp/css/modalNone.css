@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/01/2020, 00:45:18
+    Author     : gustavo
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/08/2019, 21:32:51
+    Author     : gustavo
+*/
+
+/* The Modal (background) */
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  text-align: center; 
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%; 
+  border-radius: 20px;
+}
+
+/* The Close Button */
+.close {
+   
+  color: #aaaaaa;
+  
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, close:focus{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mensagem{
+    color:#0b2e13;
+    background-color: #e2e6ea;
+   
+}
+  .p{
+    font-size: 30px;
+    }

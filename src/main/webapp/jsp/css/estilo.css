@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/07/2019, 14:28:40
+    Author     : gustavo
+*/
+
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+
+.alinhamento{
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    
+}
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+#titulo {
+    
+    
+    top: 0;    
+    height: 50px;
+    font-family: "Lucida Handwriting";
+    font-size: 40px;
+    color: #F5A9E1;
+    position: relative; 
+    background-color:  #A9A9F5;
+    
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background: url(mari.png) no-repeat 0 0 #A9A9F5;
+    background-position-y: 90%;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #555;
+    color: white;
+}
+.selecionado{
+    background-color: #558;     
+}
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 100%;
+}
+
+input[type=submit] {
+    width: 200px; height: 40px; border-radius:10px;
+    background-color: #D8F6CE;
+}
+input[type=reset] {
+    width: 200px; height: 40px; border-radius:10px;
+    background-color: #F6CECE;
+}
+input[type=text]{
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#descricaoagendamento{
+    width: 300px;
+    height: 50px;
+}
+.botao{
+    float: right;
+}
+
+#tabelaconteudo{
+    background-color: #BDBDBD;
+}
+fieldset{
+    background-color: #F2F2F2;
+}
+
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;    
+    font-family: "Comfortaa";
+    
+}
+select{
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+}
+input[type=date]{
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+}
+button{
+    font-family: "Comfortaa";
+    font-size: 20px;
+    background-color: #A9A9F5;
+    width: 300px;
+}
+#relatorioinicio{
+       float: right;
+    }
+@media screen and (max-width: 600px) {
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        
+        background-position-y: 1000%; 
+    }
+    #titulo{        
+        
+        background: url(mari.png) no-repeat 0 0 ;
+        background-size: contain;
+    }  
+    .barra{
+        background: url(mari.png) no-repeat 0 0 #A9A9F5; 
+        background-size: contain;
+        background-position-x: 100%;
+    }
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    div.content{
+        margin-left: 10px;
+        padding: 1px 16px;
+        height: 100%;
+    }
+    .botao{
+         margin: 0 auto; width: 60%; float: none;
+    }
+    #relatorioinicio{
+        
+        margin: 0 auto; width:90%; float: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    div.content{
+        margin-left: 10px;
+        padding: 1px 16px;
+        height: 100%;
+        
+    }
+    .botao{
+         margin: 0 auto;float: none;
+    }
+    #relatorioinicio{
+       margin: 0 auto;  float: none;width:90%
+    }
+
+}
