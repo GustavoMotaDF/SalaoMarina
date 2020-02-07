@@ -35,8 +35,8 @@
       </div>
 
       <div class="form-label-group">
-        <input type="text" id="inputEmail" class="form-control" name="nome" placeholder="Nome de usuário" required autofocus>
-        <label for="inputEmail">Nome de usuário</label>
+        <input type="text" id="inputEmail" class="form-control" name="nome" placeholder="Nome de usuï¿½rio" required autofocus>
+        <label for="inputEmail">Nome de usuï¿½rio</label>
       </div>
 
       <div class="form-label-group">
